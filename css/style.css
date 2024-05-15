@@ -1,0 +1,16 @@
+.block {
+  width: 400px;
+  height: 500px;
+  background-color: aqua;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.block .totle {
+  color: red;
+}
+
+span {
+  border-radius: none;
+  color: red;
+  background-color: 0;
+}/*# sourceMappingURL=style.css.map */

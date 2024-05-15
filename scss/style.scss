@@ -1,0 +1,27 @@
+.block {
+    width: 400px;
+    height: 500px;
+    background-color:aqua;
+    margin: 0 auto;
+    margin-top: 50px;
+     
+
+     .totle {
+        color: red;
+
+     }
+}
+
+
+@import'./footer';
+
+%buttonTemplate {
+    border-radius: none;
+    color: red;
+    background-color:green($color: #000000)
+
+}
+
+span {
+    @extend %buttonTemplate;
+}
